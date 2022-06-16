@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Munchbox Transactional Email</title>
+    <style>
+      body {
+        background: black;
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        background: white;
+        border: solid white 5px;
+      }
+      .logo {
+        display: inline-block;
+        width: 80px;
+      }
+      .company_name {
+        display: inline-block;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 1;
+      }
+      .customer_name {
+        background: #D2FA96;
+        color: #456230;
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+        padding: 50px 0 20px;
+      }
+      .fresh {
+        width: 100%;
+      }
+      .delivery_container {
+        text-align: center;
+      }
+      .menu_container {
+        background: #D2FA96;
+        text-align: center;
+        padding: 30px 80px 0;
+        line-height: 1.5;
+        font-size: 15px;
+      }
+      .view_menu_button {
+        display: inline-block;
+        color: white;
+        background: #009646;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 30px 0;
+        padding: 10px 90px;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="container" cellspacing="0" cellpadding="0" border="0" width="600px" align="center">
+      <tr>
+        <td>
+          <table cellspacing="0" cellpadding="0" border="0" width="100%">
+            <!-- logo/company row -->
+            <tr>
+              <td align="center">
+                <img class="logo" src="img/logo.png" alt="logo">
+                <h1 class="company_name" align="left">MUNCH<br>BOX</h1>
+              </td>
+            </tr>
+            <!-- thanks row -->
+            <tr>
+              <td>
+                <h2 class="customer_name">Nicholas,</h2>
+                <img class="fresh" src="img/thanks.png" alt="Thanks for joining">
+              </td>
+            </tr>
+            <!-- scheduled row -->
+            <tr>
+              <td class="delivery_container">
+                <p style="color: rgb(73, 73, 73); font-size: 22px; font-weight: 600;">Your first delivery is scheduled for</p>
+                <p style="color: #9DC84E; font-size: 30px; font-weight: 700;">Monday, March 21</p>
+              </td>
+            </tr>
+            <!-- change menu row -->
+            <tr>
+              <td class="menu_container">
+                <p style="font-size: 20px; font-weight: 700;">Want to change your menu?</p>
+                <p style="font-size: 18px;">You can make updates to your order before 11:59 PM PST five days prior to your scheduled delivery date. (Or let us curate your menu for you!)</p>
+                <a class="view_menu_button" href="#!">VIEW MENU</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
