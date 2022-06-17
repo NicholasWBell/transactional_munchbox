@@ -22,11 +22,12 @@
         display: inline-block;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         line-height: 1;
+        text-align: left;
       }
       .customer_name {
         background: #D2FA96;
         color: #456230;
-        font-size: 35px;
+        font-size: 40px;
         text-align: center;
         margin: 0;
         padding: 50px 0 20px;
@@ -41,7 +42,7 @@
       .menu_container {
         background: #D2FA96;
         text-align: center;
-        padding: 30px 80px 0;
+        padding: 20px 80px;
         line-height: 1.5;
         font-size: 15px;
       }
@@ -51,7 +52,7 @@
         background: #009646;
         text-decoration: none;
         font-size: 16px;
-        margin: 30px 0;
+        margin: 20px 0;
         padding: 10px 90px;
         border-radius: 6px;
       }
@@ -74,6 +75,58 @@
         font-size: 14px;
         line-height: 1.6;
       }
+      .questions {
+        background: #96DC14;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 30px 0;
+        line-height: 1.75;
+      }
+      .help_link {
+        color: black;
+      }
+      .market_text {
+        line-height: 1.5;
+        padding-top: 10px;
+      }
+      .explore_link {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: underline;
+        color: black;
+        padding: 30px 0;
+      }
+      .social_text {
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      .social_container {
+        text-align: center;
+        padding: 15px 0 0;
+      }
+      .social_link {
+        display: inline-block;
+      }
+      .social_img {
+        display: inline-block;
+        height: 25px;
+        margin: 0 12px;
+      }
+      .legal_text {
+        font-size: 10px;
+        color: grey;
+      }
+      .email_link {
+        text-decoration: underline;
+        color: #6E97DE;
+      }
+      .legal_link {
+        text-decoration: underline;
+        color: grey;
+      }
     </style>
   </head>
   <body>
@@ -85,13 +138,13 @@
             <tr>
               <td align="center">
                 <img class="logo" src="img/logo.png" alt="logo">
-                <h1 class="company_name" align="left">MUNCH<br>BOX</h1>
+                <h1 class="company_name">MUNCH<br>BOX</h1>
               </td>
             </tr>
             <!-- thanks row -->
             <tr>
               <td>
-                <h2 class="customer_name">Nicholas,</h2>
+                <h2 class="customer_name">John,</h2>
                 <img class="fresh" src="img/thanks.png" alt="Thanks for joining">
               </td>
             </tr>
@@ -171,6 +224,77 @@
                     <td class="purchase_text">Monday</td>
                   </tr>
                 </table>
+              </td>
+            </tr>
+            <!-- questions row -->
+            <tr>
+              <td class="questions">QUESTIONS?<br>Visit our <a href="#!" class="help_link">Help Center</a>.</td>
+            </tr>
+            <!-- treat yourself row -->
+            <tr>
+              <td>
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="font-size: 0;">
+                      <img src="img/food.jpg" alt="food">
+                    </td>
+                    <td style="background: #FEFB90;">
+                      <table cellspacing="0" cellpadding="0" border="0" width="100%" style="display: block; background: #FEFB90; text-align: center; padding: 0 12px;">
+                        <tr>
+                          <td>
+                            <img class="logo" src="img/logo.png" alt="logo">
+                            <h1 class="company_name" style="font-size: 25px;">MUNCH<br>BOX<br>MARKET</h1>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="market_text">Treat yourself every meal (and snack!) of the week with Munch Box Market. Featuring MORE extras than ever, hand-picked by us.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a class="explore_link" href="#!">EXPLORE NOW</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- social row -->
+            <tr>
+              <td style="padding: 30px 0; border-bottom: solid rgb(223, 223, 223) 2px;">
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td class="social_text">Follow us. Or give us a shout out.</td>
+                  </tr>
+                  <tr>
+                    <td class="social_container">
+                      <a class="social_link" href="#!">
+                        <img class="social_img" src="img/facebook.png" alt="Facebook">
+                      </a>
+                      <a class="social_link" href="#!">
+                        <img class="social_img" src="img/instagram.png" alt="Instagram">
+                      </a>
+                      <a class="social_link" href="#!">
+                        <img class="social_img" src="img/twitter.png" alt="Twitter">
+                      </a>
+                      <a class="social_link" href="#!">
+                        <img class="social_img" src="img/pinterest.png" alt="Pinterest">
+                      </a>
+                      <a class="social_link" href="#!">
+                        <img class="social_img" src="img/blog.png" alt="Blog">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- legal row -->
+            <tr>
+              <td align="center" style="padding: 20px 0 40px;">
+                <p class="legal_text">You received this email because you provided Munch Box with the email address: <a class="email_link" href="#!">JohnSmith123@gmail.com</a>.</p>
+                <p class="legal_text">Use of the Munch Box service and website is subject to our <a class="legal_link" href="#!">Terms of Use</a> and <a class="legal_link" href="#!">Privacy Policy</a>.</p>
+                <p class="legal_text">&copy; 2022 Munch Box. 123 Boulevard Ave, Atlanta, GA 33743 USA. All rights reserved.</p>
               </td>
             </tr>
           </table>
